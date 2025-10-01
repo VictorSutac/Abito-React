@@ -1,0 +1,28 @@
+.content-side__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 25px;
+  border-bottom: 1px solid rgba(229, 229, 229, 1);
+  padding-bottom: 36px;
+  margin-bottom: 36px;
+}
+.content-side__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content-side__list-item--title {
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.content-side__list-item--text {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
