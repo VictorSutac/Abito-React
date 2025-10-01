@@ -48,13 +48,15 @@ export const Home = () => {
               <div className="content-side">
                 <h3 className="content-side_title">Сервисы и услуги</h3>
                 <div className="content-side__box">
-                  {content.map((cont) => (
-                    <Content
-                      title={cont.title}
-                      text={cont.text}
-                      img={cont.img}
-                    />
-                  ))}
+                  <div className="content-side__list">
+                    {content.map((cont) => (
+                      <Content
+                        title={cont.title}
+                        text={cont.text}
+                        img={cont.img}
+                      />
+                    ))}
+                  </div>
 
                   <div className="content-side__footer">
                     <p className="content-side__footer--item">
